@@ -3,7 +3,7 @@
 
 int main() {
 
-[out = std::ref(std::cout<<"Hallo ")](){out.get()<<"Welt!\n";}();
+[out = std::ref(std::cout<<"Hallo")](){out.get()<<" Welt!\n";}();
 
 }
 
